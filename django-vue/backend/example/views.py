@@ -4,4 +4,4 @@ from django.http import HttpResponse
 class Class_Example(APIView):
 
     def get(self, request):
-        return HttpResponse("hola ejemplo")
+        return HttpResponse("hola \")
